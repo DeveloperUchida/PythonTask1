@@ -47,3 +47,9 @@ print(b[2][3])
 for y in range(len(b)):
     for x in range(len(b[0])):
         print(b[y][x])
+
+        w = int(input("? "))
+        print(w)
+# "#"を使ってWの大きさの正方形を表示させる
+print("#", end="")
+print("#")
