@@ -42,3 +42,8 @@ b = [
 ]
 print(len(b))
 print(len(b[0]))
+print(b[2][3])
+
+for y in range(len(b)):
+    for x in range(len(b[0])):
+        print(b[y][x])
